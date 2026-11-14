@@ -24,3 +24,12 @@ SELECT Students.student_name, Marks.subject, Marks.marks
 FROM Students
 INNER JOIN Marks
 ON Students.student_id = Marks.student_id;
+
+
+
+-- LEFT JOIN Example
+
+SELECT Students.student_name, Marks.subject, Marks.marks
+FROM Students
+LEFT JOIN Marks
+ON Students.student_id = Marks.student_id;
